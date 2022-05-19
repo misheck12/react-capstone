@@ -1,0 +1,22 @@
+.searchBar {
+  background-color: purple;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.searchBar > input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 6pc;
+}
+
+.search {
+  color: white;
+}
+
+.search:hover {
+  cursor: pointer;
+}

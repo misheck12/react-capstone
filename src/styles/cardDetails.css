@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  display: grid;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.year-title {
+  color: white;
+  padding: 10px;
+}
+
+.income-statement {
+  background-color: black;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 48% 17% 12%;
+  gap: 0 10px;
+  border: solid 1px white;
+  padding: 15px 8px;
+  font-size: 15px;
+  background: purple;
+  color: white;
+}
+
+li > div {
+  display: grid;
+  gap: 6px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  li {
+    display: grid;
+    grid-template-columns: 30% 21% 20%;
+    gap: 0 14px;
+    overflow: hidden;
+  }
+}
