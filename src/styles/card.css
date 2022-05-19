@@ -1,0 +1,40 @@
+.stock-card {
+  padding: 5px 5px 10px 12px;
+  background-color: purple;
+  display: grid;
+  gap: 8px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 55% 23%;
+  height: 250px;
+}
+
+.stock-card:hover {
+  cursor: pointer;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-name {
+  font-size: 1rem;
+}
+
+.ticker {
+  width: fit-content;
+  padding: 6px 4px;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+}
+
+.rounded {
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
